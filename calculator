@@ -1,0 +1,29 @@
+class Calculator:
+    def add():
+        print(a + b)
+    def sub()
+        print(a - b)
+    def mult():
+        print(a * b)
+    def div():
+        print(a / b)
+a = float(input("Enter first number:"))
+b = float(input("Enter first number:"))
+obj = Calculator()
+choice = 1
+while choice != 0:
+    print("1. ADDITION")
+    print("2. SUBTRACTION")
+    print("3. MULTIPLICATION")
+    print("4. DIVISION")
+    choice = int(input("Enter your choice:"))
+    if choice == 1:
+        print(obj.add())
+    elif choice == 2:
+        print(obj.sub())
+    elif choice == 3:
+        print(obj.mult())
+    elif choice == 4:
+        print(obj.div())
+    else:
+        print("Invalid choice")
